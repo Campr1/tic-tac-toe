@@ -1,7 +1,7 @@
 import { React } from "react";
-import Square from "./components/Square";
+import Square from "../components/Square";
 
-const Board = () => <div>
+const Board = ({ squares, onClick }) => <div>
 <Square value = "1" onClick={() => onClick("dummy value")} />
 <Square value = "2" onClick={() => onClick("dummy value")} />
 <Square value = "3" onClick={() => onClick("dummy value")} />
