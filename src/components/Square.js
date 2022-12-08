@@ -1,7 +1,7 @@
 import { React } from "react";
 
 const style = {
-	background: "lightblue",
+	background: "red",
 	border: "2px solid darkblue",
 	fontSize: "30px",
 	fontWeight: "800",
